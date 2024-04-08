@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 60px; /* Adjust as needed */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons a {
+    margin-left: 20px;
+}
+
+.social-icons img {
+    height: 30px; /* Adjust as needed */
+}
+
+.content {
+    padding: 20px;
+}
+
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position:relative;
+    display:inline-block;
+}
+.text-overlay {
+    position: absolute;
+    top: 130%; 
+    left: 150px; 
+    transform: translateY(-50%); 
+    color: white;
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+    background-color: rgba(0, 0.5, 0.5, 1); 
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    }
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5dc; /* Light brown */
+    padding: 20px;
+}
+
+.information .left,
+.information .middle,
+.information .right {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    max-width: 90%;
+}
+
+.gallery .left-picture,
+.gallery .middle-picture,
+.gallery .right-picture{
+text-aligh:center;
+}
+
+.gallery button.learn-more-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.gallery button.learn-more-btn:hover {
+    background-color: #333;
+}
